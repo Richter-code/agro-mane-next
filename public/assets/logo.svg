@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-label="Agro Mané">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7ed957"/>
+      <stop offset="1" stop-color="#3aa83a"/>
+    </linearGradient>
+  </defs>
+  <!-- background transparent -->
+  <g>
+    <!-- leafy quad mark -->
+    <g fill="url(#g)">
+      <rect x="8" y="16" width="36" height="36" rx="10"/>
+      <rect x="48" y="16" width="36" height="36" rx="10"/>
+      <rect x="8" y="56" width="36" height="36" rx="10"/>
+      <rect x="48" y="56" width="36" height="36" rx="10"/>
+    </g>
+    <!-- wordmark -->
+    <g fill="#ffffff">
+      <text x="100" y="52" font-family="system-ui, Segoe UI, Roboto, Ubuntu, Arial" font-size="44" font-weight="900">agro</text>
+      <text x="100" y="96" font-family="system-ui, Segoe UI, Roboto, Ubuntu, Arial" font-size="44" font-weight="900">mané</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+export default function Carrinho(){ return <h1 className="text-2xl font-bold">Carrinho</h1> }

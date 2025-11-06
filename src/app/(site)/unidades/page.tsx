@@ -1,0 +1,1 @@
+export default function Unidades(){ return <h1 className="text-2xl font-bold">Unidades</h1> }

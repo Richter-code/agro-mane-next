@@ -1,0 +1,1 @@
+export default function Sobre(){ return <h1 className="text-2xl font-bold">Sobre</h1> }
