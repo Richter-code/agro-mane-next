@@ -34,13 +34,19 @@ pnpm dev
 pnpm test
 ```
 
-## Deploy (Vercel recomendado)
+## Deploy
 
-- Vercel (CLI ou Dashboard)
-  - Configure as variáveis de ambiente no projeto (Project Settings > Environment Variables)
-  - Opcional (CLI): `vercel`, depois `vercel --prod`
-- Execução manual/servidor próprio
-  - `pnpm install && pnpm build && pnpm start`
-  - Rodar atrás de um proxy (Nginx/Caddy) com HTTPS e variáveis via `.env` (não comitar)
+Consulte o arquivo [DEPLOY.md](./DEPLOY.md) para instruções completas de:
+- Conectar ao GitHub
+- Deploy automático na Vercel
+- Configuração de domínio personalizado
+- Variáveis de ambiente
+- CI/CD e deploy de preview
+
+**Resumo rápido (Vercel)**:
+1. Crie o repositório no GitHub e faça push
+2. Importe o projeto em https://vercel.com/new
+3. Configure variáveis de ambiente (se necessário)
+4. Deploy automático a cada push em `main`
 
 ````
