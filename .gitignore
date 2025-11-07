@@ -54,3 +54,4 @@ test-results/
 
 # shadcn/ui cache (se existir)
 .components.json
+.vercel
