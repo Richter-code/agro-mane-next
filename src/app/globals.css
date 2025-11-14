@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 :root{
-  --bg: #0b0f0e;
+  --brand-primary: #2F6F55;
+  --brand-primary-dark: #0C3B2E;
+  --brand-primary-light: #F0F7F3;
+  --brand-accent: #7ED957;
+  --brand-neutral: #101413;
+  --brand-neutral-alt: #18201D;
+  --brand-danger: #DC4F41;
+  --brand-warning: #F5A525;
+  --brand-info: #2986CC;
+  --brand-success: #3BA272;
+  --bg: var(--brand-neutral);
   --text: #e8f0ec;
 }
 
